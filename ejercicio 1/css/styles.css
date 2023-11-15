@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'CoolveticaRegular';
+    src: url('../fonts/coolvetica\ rg.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * {border: 1px solid #000;} */
+
+html{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+h1{
+    font-family: 'CoolveticaRegular', sans-serif;
+    font-size: 90pt; 
+    color: #0a2ff1;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #0a2ff1; 
+    font-weight: bold;
+    margin: 10px;
+}
+
+p{
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #04146c;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 1em; /* Padding de 1em alrededor del contenido */
+    display: flex; /* Utilizar flexbox para alinear los elementos hijos */
+    justify-content: space-evenly; /* Alinea los elementos con espacio entre ellos */
+}
+
+.group-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    align-items: center;
+    background-color: #eff2ff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 20%;
+}
+
+img{
+    width: 25%;
+    margin: 10px;
+}
+
+.icon-apple{
+    width: 18%;
+}
